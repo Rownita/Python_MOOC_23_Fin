@@ -1,0 +1,12 @@
+### Finding median value of a list
+
+list = [12,345,3897,321,98.456,2345.5788]
+
+def  median_list(my_list):
+    list_1 = sorted(my_list)  ### sorting the list
+    median_index = len(list_1)//2 ### finding the middle index
+    return my_list[median_index]  ### returning the middle element
+
+median = median_list(list)
+
+print("The median is",median)
