@@ -1,1 +1,1 @@
-### This repository include python codes related MOOC.fi courses Part-4 : list
+### This repository includes python codes related to MOOC.fi courses Part-4 : list
