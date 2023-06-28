@@ -13,6 +13,6 @@ def list_of_stars(my_list):
             print("*",end="")
         print("")
 
-
+### Testing function in pre-defined if block
 if __name__ == "__main__":
     list_of_stars([3,7,1,1,2])
