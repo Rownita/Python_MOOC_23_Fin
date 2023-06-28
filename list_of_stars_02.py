@@ -8,8 +8,8 @@ For example, with the function call list_of_stars([3, 7, 1, 1, 2]) the following
 ### Write your solution here
 
 def list_of_stars(my_list):
-    for i in my_list:
-        for j in range(1,i+1,1):
+    for i in my_list: ### iterating each element of a loop
+        for j in range(1,i+1,1):   ### now printing stars according to the number of elements
             print("*",end="")
         print("")
 
